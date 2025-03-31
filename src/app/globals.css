@@ -1,26 +1,143 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+::-webkit-scrollbar {
+    display: none;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+    background-color: #E5E5E5;
+        font-family: monospace;
+}
+
+.not-Clicked {
+    margin-left: 80px;
+    transition: border 0.5s;
+    border: none
+}
+
+.not-Clicked:hover {
+    cursor: pointer;
+    
+}
+.img {
+    width: 60px;
+}
+
+section>h3 {
+    text-align: center;
+    height: full;
+
+}
+
+.skills>div {
+    height: 100px;
+}
+
+
+/* Radio buttons styles */
+
+input[type="radio"] {
+    display: none;
+}
+
+label{
+    cursor: pointer;
+    border-bottom: 4px solid #7C7C7C;
+    display: flex;
+    color: #7C7C7C;
+    transition-duration: 1.5s;
+    transition: border-bottom 0.15s linear;
+    transition: color 0.15s linear;
+}
+
+label>h2{
+    text-align: center;
+    width: 100%;
+    margin-bottom:10px ;
+    font-weight: 500;
+    font-family: monospace;
+}
+
+:checked + label{
+    border-bottom: 5px solid #FFFBFB;
+    color: #FFFBFB;
+}
+
+.hidden{
+    display: none;
+}
+
+
+#code{
+    font-size: large;
+    transition: transform 0.1s linear;
+}
+
+#code:hover{
+    transform: translateX(5px);
+}
+
+
+button {
+    border-radius: 50px;
+    border: 2px solid black;
+    text-align: start;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: all 0.2s;
+    cursor: pointer;
+    width: fit-content;
+}
+
+button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.2s;
+}
+
+button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+button:hover span {
+    padding-right: 25px;
+}
+
+button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.card img{
+    margin-bottom: 20px;
+}
+
+#socials img{
+    transition: transform 0.1s linear;
+}
+
+#socials img:hover{
+    transform: translateY(-5px);
+}
+
+#cv{
+    width: 120px;
+    text-align: center;
+    background-color: black;
+    color: #D7D7D7;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    transition: transform 0.1s linear;
+}
+
+#cv:hover{
+    transform: translateY(-5px);
 }
