@@ -15,7 +15,7 @@ export default function Mobile(){
                     <h3 className="text-[#909090] font-semibold  md:text-[20px] text-[18px] w-fit mr-[50px] mb-[10px]">
                         Front-End Web Developer
                     </h3>
-                    <button id="cv" > <Link href="https://drive.google.com/file/d/11CQ1nl3MBUh3RH4DWbo1zbagJRexxNXm/view?usp=sharing" target="_blank"> Resume </Link></button>
+                    <button id="cv" > <Link href="https://drive.google.com/file/d/1BvB0KTAElNoXcAE-OUvEwWPbfDs95j5k/view?usp=sharing" target="_blank"> Resume </Link></button>
                 </div>
                 
             </div>
