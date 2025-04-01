@@ -20,7 +20,7 @@ export default function Mobile(){
                 
             </div>
             <div className="w-full bg-[#1D1D1D] text-[#D7D7D7] flex justify-baseline mt-7">
-                <p className="w-[80%] mx-auto text-center italic mt-[20px] mb-[20px]">"And so you touch this limit, something happens and you suddenly can go a little bit further. With your mind power, your determination, your instinct, and the experience as well, you can fly very high" <span className="text-[15px] ">Ayton Senna</span></p>
+                <p className="w-[80%] mx-auto text-center italic mt-[20px] mb-[20px]">"And so you touch this limit, something happens and you suddenly can go a little bit further. With your mind power, your determination, your instinct, and the experience as well, you can fly very high" <span className="text-[15px] ">Ayrton Senna</span></p>
             </div>
         </>
     )

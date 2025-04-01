@@ -26,7 +26,7 @@ export default function Desktop(){
                 </div>
             </div>
             <div className=" w-[100%] h-[15%] bg-[#1D1D1D] text-[#D7D7D7] relative bottom-29 text-[20px] flex justify-baseline">
-                <p className="w-[60%] mx-auto text-center my-auto italic">"And so you touch this limit, something happens and you suddenly can go a little bit further. With your mind power, your determination, your instinct, and the experience as well, you can fly very high" <span className="text-[15px] ">Ayton Senna</span></p>
+                <p className="w-[60%] mx-auto text-center my-auto italic">"And so you touch this limit, something happens and you suddenly can go a little bit further. With your mind power, your determination, your instinct, and the experience as well, you can fly very high" <span className="text-[15px] ">Ayrton Senna</span></p>
             </div>
         </>
     )
