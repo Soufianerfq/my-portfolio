@@ -1,7 +1,7 @@
 "use client"
 import { useState, useEffect, useLayoutEffect } from "react"
-import Nav from "./nav components/nav"
-import HamburgerComp from "./nav components/HamburgerComp"
+import Nav from "./nav/Nav"
+import HamburgerComp from "./nav/HamburgerComp"
 
 export default function Header({aboutme, portfolio, skills}){
   const [small, setSmall] = useState()
