@@ -6,10 +6,11 @@ import { useState, useEffect, useLayoutEffect } from "react";
 export default function Landing(){
   const [small, setSmall] = useState(window.innerWidth)
 
+  const handleResize = () => {
+    setSmall(window.innerWidth)
+  }  
   useLayoutEffect(() => {
-    const handleResize = () => {
-      setSmall(window.innerWidth)
-    }
+
     window.addEventListener("resize", handleResize);
     return () => {
       window.removeEventListener("resize", handleResize);

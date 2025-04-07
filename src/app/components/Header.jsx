@@ -19,11 +19,12 @@ export default function Header({aboutme, portfolio, skills}){
   //     window.removeEventListener("resize", handleResize);
   //   }
   // }, [])
+  const handleResize = () => {
+    setSmall(window.innerWidth)
+  }
 
   useLayoutEffect(() => {
-    const handleResize = () => {
-        setSmall(window.innerWidth)
-      }
+
     window.addEventListener("resize", handleResize);
     return () => {
       window.removeEventListener("resize", handleResize);
