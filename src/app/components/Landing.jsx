@@ -21,7 +21,7 @@ export default function Landing(){
       <div className="max-w-[2000px] h-full mx-auto">
 
         {
-          small > 928 ? (
+          small > 1023 ? (
             <Desktop />
           ) : (
             <Mobile />
