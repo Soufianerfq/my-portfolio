@@ -17,7 +17,7 @@ export default function AboutMe(){
         </div>
         <div className="lg:w-[80%]  lg:mt-[80px] m-auto flex md:flex-row flex-col mt-[50px] justify-between items-center lg:justify-around">
           <section className="lg:w-[40%] mx-[10px] md:mb-[0px] mb-[50px]">
-            <Image className="inline lg:w-[150px] w-[100px]" src={develop} />
+            <Image alt="develop" className="inline lg:w-[150px] w-[100px]" src={develop} />
             <h2 className="inline font-mono font-bold lg:text-[30px] text-[25px]">
               DEVELOPMENT
             </h2>
@@ -27,7 +27,7 @@ export default function AboutMe(){
             </p>
           </section>
           <section className="lg:w-[40%] mx-[10px]">
-            <Image className="inline lg:w-[150px]" src={maintenance} />
+            <Image alt="maintenance" className="inline lg:w-[150px]" src={maintenance} />
             <h2 className="inline font-mono font-bold lg:text-[30px] text-[25px]">
               MAINTENANCE
             </h2>

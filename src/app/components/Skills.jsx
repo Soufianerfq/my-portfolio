@@ -32,36 +32,36 @@ export default function Skills(){
             <div className="m-auto w-fit flex flex-col lg:space-y-[50px] space-y-[40px]">
               <div className="flex lg:space-x-[70px] space-x-[30px]">
                 <section className="">
-                  <Image className="img" src={html} />
+                  <Image alt="html" className="img" src={html} />
                 </section>
                 <section>
-                  <Image className="img" src={css} />
+                  <Image alt="css" className="img" src={css} />
                 </section>
                 <section>
-                  <Image className="img ml-[5px]" src={js} />
+                  <Image alt="js" className="img ml-[5px]" src={js} />
                 </section>
                 <section>
-                  <Image className="img" src={ts} />
+                  <Image alt="ts" className="img" src={ts} />
                 </section>
                 <section>
-                  <Image className="img " src={react} />
+                  <Image alt="react" className="img " src={react} />
                 </section>
               </div>
               <div className="flex lg:space-x-[70px] space-x-[30px]">
                 <section>
-                  <Image className="img" src={next} />
+                  <Image alt="next" className="img" src={next} />
                 </section>
                 <section>
-                  <Image className="img" src={tailwind} />
+                  <Image alt="tailwind" className="img" src={tailwind} />
                 </section>
                 <section>
-                  <Image className="img" src={node} />
+                  <Image alt="node" className="img" src={node} />
                 </section>
                 <section className="ml-[15px]">
-                  <Image className="img" src={express} />
+                  <Image alt="express" className="img" src={express} />
                 </section>
                 <section className="w-[30px] ">
-                  <Image className="img ml-[10px]" src={mongo} />
+                  <Image alt="mongo" className="img ml-[10px]" src={mongo} />
                 </section>
               </div>
             </div>
@@ -72,16 +72,16 @@ export default function Skills(){
             </h2>
             <div className="flex lg:space-x-[40px] space-x-[20px]">
               <section className=" ">
-                <Image className=" lg:w-[70px] w-[60px]" src={zustand} />
+                <Image alt="zustand" className=" lg:w-[70px] w-[60px]" src={zustand} />
               </section>
               <section className="lg:w-[70px] w-[60px]">
-                <Image className="" src={axios} />
+                <Image alt="axios" className="" src={axios} />
               </section>
               <section className="lg:w-[110px] w-[80px]">
-                <Image className="" src={matter} />
+                <Image alt="matter" className="" src={matter} />
               </section>
               <section className="lg:w-[70px] w-[60px]">
-                <Image className="" src={web3} />
+                <Image alt="web3" className="" src={web3} />
               </section>
             </div>
           </section>

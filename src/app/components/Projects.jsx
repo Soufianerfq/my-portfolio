@@ -48,21 +48,21 @@ export default function Projects(){
           <div id="radio" className="flex justify-around md:w-[80%] w-full h-[130px] mx-auto items-center">
             <div className="w-full">
               <input type="radio" id="Landing-Pages" name="portfolio" value="Landing Pages"  onChange={(e) => setPage(e.target.value)} defaultChecked/>
-              <label for="Landing-Pages">
+              <label htmlFor="Landing-Pages">
                 <h2 className="lg:text-[20px] text-[13px]">Landing Pages</h2>
               </label>
             </div>
 
             <div className="w-full">
               <input type="radio" id="React-Applications" name="portfolio" value="React Applications" onChange={(e) => setPage(e.target.value)} />
-              <label for="React-Applications">
+              <label htmlFor="React-Applications">
                 <h2 className="lg:text-[20px] text-[13px]">Applications</h2>
               </label>
             </div>
 
             <div className="w-full">
               <input type="radio" id="Back-end" name="portfolio" value="Back-end" onChange={(e)=>setPage(e.target.value)} />
-              <label for="Back-end">
+              <label htmlFor="Back-end">
                 <h2 className="lg:text-[20px] text-[13px]">Back-end</h2>
               </label>
             </div>
@@ -75,7 +75,7 @@ export default function Projects(){
 
             <div id="webagency" className=" card flex lg:flex-row flex-col items-center ">
               <div className="lg:w-[500px]">
-                <Image className="rounded-2xl" src={webagency}/>
+                <Image alt="webagencythumbnail" className="rounded-2xl" src={webagency}/>
               </div>
               <div className="lg:w-[600px] w-[100%] h-[70%] flex flex-col justify-around md:ml-[30px]">
                 <h2 className="font-mono font-bold md:text-[40px] text-[25px] mb-[10px] ">Web Agency Landing Page</h2>
@@ -89,7 +89,7 @@ export default function Projects(){
 
             <div id="realestate" className=" card flex lg:flex-row-reverse flex-col items-center mt-[30px] ">
               <div className="lg:w-[600px]">
-                <Image className="rounded-2xl lg:ml-[30px]" src={realestate}/>
+                <Image alt="realestateagencythumbnail" className="rounded-2xl lg:ml-[30px]" src={realestate}/>
               </div>
               <div className="lg:w-[600px] w-[100%] h-[70%] flex flex-col justify-around md:mr-[30px]">
                 <h2 className="font-mono font-bold md:text-[40px] text-[25px] mb-[10px] ">Real Estate Landing Page</h2>
@@ -109,7 +109,7 @@ export default function Projects(){
 
             <div id="Appointment" className=" card flex lg:flex-row flex-col mt-[30px]">
               <div className="lg:w-[600px]">
-                <Image className="rounded-2xl" src={appointment} />
+                <Image alt="appointmentthumbnail" className="rounded-2xl" src={appointment} />
               </div>
               <div className="lg:w-[700px] w-[100%] h-[70%] flex flex-col justify-around lg:ml-[30px]">
                 <h2 className="font-mono font-bold lg:text-[40px] text-[30px] ">Appointment Scheduler</h2>
@@ -129,7 +129,7 @@ export default function Projects(){
 
             <div id="cabinet" className=" card flex lg:flex-row-reverse flex-col items-center mt-[30px] ">
               <div className="md:w-[600px]">
-                <Image className="rounded-2xl" src={cabinet} />
+                <Image alt="appointmentthumbnail" className="rounded-2xl" src={cabinet} />
               </div>
               <div className="lg:w-[700px] w-[100%] h-[70%] flex flex-col justify-around md:mr-[30px]">
                 <h2 className="font-mono font-bold lg:text-[40px] text-[30px] ">Dr Interface</h2>
@@ -151,7 +151,7 @@ export default function Projects(){
 
             <div id="coinflip" className=" card flex lg:flex-row flex-col items-center ">
               <div className="lg:w-[400px] w-[300px]">
-                <Image className="rounded-2xl" src={coinflip} />
+                <Image alt="coinflipthumbnail" className="rounded-2xl" src={coinflip} />
               </div>
               <div className="lg:w-[600px] w-[100%] h-[70%] flex flex-col justify-around md:ml-[30px]">
                 <h2 className="font-mono font-bold md:text-[40px] text-[25px] mb-[10px] ">Coin Flip</h2>
@@ -165,7 +165,7 @@ export default function Projects(){
 
             <div id="slots" className=" card flex lg:flex-row-reverse flex-col items-center mt-[30px] ">
               <div className="lg:w-[500px] w-[300px]">
-                <Image className="rounded-2xl" src={slots} />
+                <Image alt="slotsthumbnail" className="rounded-2xl" src={slots} />
               </div>
               <div className="lg:w-[600px] w-[100%] h-[70%] flex flex-col justify-around md:mr-[30px]">
                 <h2 className="font-mono font-bold md:text-[40px] text-[25px] mb-[10px] ">Slots</h2>
@@ -184,7 +184,7 @@ export default function Projects(){
           <div ref={beRef} className="md:w-[80%] flex flex-col md:space-y-[100px] md:mt-[30px] md:mb-[30px]">
             <div id="appointmentserver" className=" card flex lg:flex-row flex-col  mt-[30px]">
               <div className="md:w-[400px]">
-                <Image className="rounded-2xl" src={server} />
+                <Image alt="server" className="rounded-2xl" src={server} />
               </div>
               <div className="lg:w-[800px] w-[100%] h-[70%] flex flex-col justify-around md:ml-[40px]">
                 <h2 className="font-mono font-bold md:text-[40px] text-[30px] ">Medical Cabinet Management Server</h2>

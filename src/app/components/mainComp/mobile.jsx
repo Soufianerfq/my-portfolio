@@ -6,7 +6,7 @@ export default function Mobile(){
     return(
         <>
             <div id='mobile' className=" flex w-[100%]  flex-col md:flex-row justify-around items-center md:pt-[70px] pt-[50px] px-[30px]">
-                <Image className="rounded-[50%] w-[300px]  " src={me}/>
+                <Image alt="me" className="rounded-[50%] w-[300px]  " src={me}/>
                 <div className="lg:w-[40%]  ">
                     <h2 className="mb-[30px] font-semibold text-[35px] font-mono">
                         Hi, I am

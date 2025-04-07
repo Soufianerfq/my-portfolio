@@ -21,7 +21,7 @@ export default function Desktop(){
                         <button id="cv"> <Link href="https://drive.google.com/file/d/1BvB0KTAElNoXcAE-OUvEwWPbfDs95j5k/view?usp=sharing" target="_blank"> Resume </Link></button>
                     </div>
                     <div className="w-[60%] flex justify-center">
-                        <Image className=" lg:w-[500px] lg:h-[500px] w-[200px] h-[200px] rounded-[50%]" src={me} />
+                        <Image alt="me" className=" lg:w-[500px] lg:h-[500px] w-[200px] h-[200px] rounded-[50%]" src={me} />
                     </div>
                 </div>
             </div>
