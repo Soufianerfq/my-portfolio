@@ -18,7 +18,7 @@ export default function Desktop(){
                         <h3 className="text-[#909090] font-semibold  lg:text-[30px] text-[25px] w-fit mr-[50px]">
                             Front-End Web Developer
                         </h3>
-                        <button id="cv"> <Link href="https://drive.google.com/file/d/1BvB0KTAElNoXcAE-OUvEwWPbfDs95j5k/view?usp=sharing" target="_blank"> Resume </Link></button>
+                        <button id="cv"> <Link href="https://drive.google.com/file/d/1n0U312h2ZWQA_96ODTUzs0gvTL-N3M3Q/view?usp=sharing" target="_blank"> Resume </Link></button>
                     </div>
                     <div className="w-[60%] flex justify-center">
                         <Image alt="me" className=" lg:w-[500px] lg:h-[500px] w-[200px] h-[200px] rounded-[50%]" src={me} />
